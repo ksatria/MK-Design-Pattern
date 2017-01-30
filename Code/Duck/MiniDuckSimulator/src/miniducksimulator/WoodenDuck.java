@@ -10,13 +10,13 @@ package miniducksimulator;
  * @author Khoirul Umam
  */
 
-public class MallardDuck extends Duck {
-    public MallardDuck() {
+public class WoodenDuck extends Duck {
+    public WoodenDuck() {
+        flyBehaviour = new FlyNoWay();
         quackBehaviour = new Quack();
-        flyBehaviour = new FlyWithWings();
     }
     
     public void display() {
-        System.out.println("I'm a real Mallard Duck");
+        System.out.println("I'm a wooden duck");
     }
 }

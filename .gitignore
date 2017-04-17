@@ -66,3 +66,5 @@ Temporary Items
 /Code/Command/*.png
 /Code/Command/nbproject/private/
 /Code/Command/build/
+/Code/TemplateWorker/nbproject/private/
+/Code/TemplateWorker/build/

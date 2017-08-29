@@ -32,6 +32,15 @@ public class WarungSedap {
         makanan4 = new Lontong(makanan4);
         makanan4 = new Lontong(makanan4);
         System.out.println(makanan4.getDeskripsi() + " Rp." + makanan4.harga());
+        
+        Makanan pecel = new Pecel();
+        System.out.println(pecel.getDeskripsi() + " Rp." + pecel.harga());
+        
+        pecel = new CekerAyam(pecel);
+        System.out.println(pecel.getDeskripsi() + " Rp." + pecel.harga());
+        
+        pecel = new CekerAyam(pecel);
+        System.out.println(pecel.getDeskripsi() + " Rp." + pecel.harga());
     }
     
 }

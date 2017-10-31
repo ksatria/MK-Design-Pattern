@@ -9,31 +9,12 @@ package templateworker;
  *
  * @author User
  */
-public class PemadamKebakaran {
-    public final void rutinitas(){
-        System.out.println("Rutinitas Pemadam Kebakaran:");
-        
-        bangunPagi();
-        sarapan();
-        bekerja();
-        istirahat();
-        
-        System.out.println();
-    }
-    
-    public void bangunPagi(){
-        System.out.println("Bangun pagi");
-    }
-    
-    public void sarapan(){
-        System.out.println("Sarapan");
+public class PemadamKebakaran extends Pekerja{
+    public PemadamKebakaran(){
+        super.jenis = "pemadam kebakaran";
     }
     
     public void bekerja(){
         System.out.println("Memadamkan kebakaran");
-    }
-    
-    public void istirahat(){
-        System.out.println("Beristirahat");
     }
 }

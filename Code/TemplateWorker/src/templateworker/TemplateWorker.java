@@ -17,9 +17,11 @@ public class TemplateWorker {
     public static void main(String[] args) {
         PemadamKebakaran pmk = new PemadamKebakaran();
         TukangPos pos = new TukangPos();
+        Dosen dsn = new Dosen();
         
         pmk.rutinitas();
         pos.rutinitas();
+        dsn.rutinitas();
     }
     
 }

@@ -9,12 +9,12 @@ package templateworker;
  *
  * @author User
  */
-public class TukangPos extends Pekerja{
-    public TukangPos(){
-        super.jenis = "tukang pos";
+public class Dosen extends Pekerja{
+    public Dosen(){
+        super.jenis = "dosen";
     }
-
+    
     public void bekerja(){
-        System.out.println("Mengantarkan surat");
+        System.out.println("Memberikan perkuliahan kepada mahasiswa");
     }
 }
